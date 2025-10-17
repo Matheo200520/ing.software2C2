@@ -9,13 +9,13 @@ public class Ejecutar {
         // Crear impresiones usando Factory Method
         Impresion impresionColor = Impresion.crearImpresion(1, "Impresión de fotos familiares", 1500, "color");
         Impresion impresionBN = Impresion.crearImpresion(2, "Impresión de documentos", 500, "blanco y negro");
-        Camara camara = new Camara(3, "Cámara profesional para fotos", 12000, "Canon", "EOS 90D");
+        Camara camara = new Camara(3, "Cámara profesional para fotos con una resolucion 2k", 12000, "Canon", "EOS 90D");
 
 
         Impresion impresionColor2 = Impresion.crearImpresion(1, "Impresión de fotos familiares", 1500, "color");
         Impresion impresionbyn = Impresion.crearImpresion(2, "Impresión de documentos", 500, "blanco y negro");
-        Impresion impresionbyn2 = Impresion.crearImpresion(3, "Impresión de tablas de multiplicar", 700, "blanco");
-        Camara camara2 = new Camara(4, "Cámara profesional para fotos y de documentos con su modo multiuso", 15000, "Sony", "el putas 3000");
+        Impresion impresionbyn2 = Impresion.crearImpresion(3, "Impresión de tablas de multiplicar", 700, "blanco y negro");
+        Camara camara2 = new Camara(4, "Cámara profesional para fotos y de documentos con su modo multiuso de alta resolucion", 15000, "Sony", "Alpha 1 II");
 
 
       // Tomar fotos y agregarlas
